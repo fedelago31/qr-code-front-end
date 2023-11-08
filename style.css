@@ -10,14 +10,17 @@ body{
     justify-content: center;
     height: 90vh;
 }
-
+@media screen () {
+    
+}
 .qr-card{
     background-color: whitesmoke;
     align-items: center;
-    width: 30%;
+    width: 260px;
     margin: auto;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px; 
+    filter: drop-shadow(#bbb 0 10px 10px);
 }
 
 .qr-img img{
